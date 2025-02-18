@@ -49,7 +49,7 @@
 * 1. miscelnious styles 
 ***************************/
 body {
-  font-family: "Nunito";
+  font-family: 'Montserrat', sans-serif;;
   font-size: 14px;
   line-height: 24px;
   color: #222222;
@@ -67,6 +67,8 @@ a:visited {
 }
 .about a{
   color:white;
+  font-family: 'Montserrat', sans-serif;
+
 }
 @media (min-width: 1200px) {
   .container {
@@ -101,6 +103,8 @@ a:visited {
   font-weight: 700;
   letter-spacing: .04em;
   margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .sec-title span:before {
@@ -112,6 +116,8 @@ a:visited {
   border-top-right-radius: 16px;
   display: block;
   margin-bottom: 22px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .sec-title.text-center span:before {
@@ -126,14 +132,18 @@ a:visited {
 .sec-title h2 {
   margin: 0;
   color: #001328;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 25px;
   letter-spacing: -0.03em;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .sec-title.light span,
 .sec-title.light h2 {
   color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .sec-title.light span:before {
@@ -149,16 +159,18 @@ a:visited {
   color: #FFFFFF;
   background: #0f6fd5;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: .04em;
   text-transform: uppercase;
-  border-radius: 30px;
+  border-radius: 8px;
   padding: 18px 39.5px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px #112a99b1;
           box-shadow: 0px 10px 30px 0px #112a99b1;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .thm-btn:hover {
@@ -205,6 +217,8 @@ a:visited {
   color: #000;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .bootstrap-select .dropdown-menu > li > a:hover {
@@ -225,7 +239,9 @@ a:visited {
   color: #798593;
   font-size: 16px;
   line-height: 34px;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .list-items {
@@ -239,7 +255,9 @@ a:visited {
   line-height: 34px;
   padding-left: 30px;
   color: #798593;
-  font-weight: 600;
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .list-items li i {
   color:#0f6fd5;
@@ -285,6 +303,8 @@ a:visited {
   font-size: 18px;
   line-height: 50px;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .scroll-to-top:hover {
@@ -314,8 +334,8 @@ a[href^="https://maps.google.com/maps"] {
 * 2. topbar styles 
 ***************************/
 .top-bar {
-  background: #0f6fd5;
-  padding: 14.75px 70px;
+  background: #112B99;
+  padding: 14.75px 70px 14.75px 140px;
 }
 
 .top-bar .left-content p {
@@ -431,11 +451,13 @@ a[href^="https://maps.google.com/maps"] {
   color: #798593;
   font-size: 18px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 400;
   width: 96%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .hidden-sidebar .sidebar-content p.contact-info {
@@ -520,7 +542,8 @@ a[href^="https://maps.google.com/maps"] {
 
 .search_area .search_box_inner h3 {
   padding-bottom: 20px;
-  font-family: "Hind", sans-serif;
+  /* font-family: "Hind", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
@@ -543,7 +566,8 @@ a[href^="https://maps.google.com/maps"] {
   box-shadow: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   color: #fff;
-  font-family: "Hind", sans-serif;
+  /* font-family: "Hind", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: normal;
 }
@@ -697,7 +721,7 @@ a[href^="https://maps.google.com/maps"] {
   padding: 0;
   position: relative;
   background-color: transparent;
-  padding: 10px 50px;
+  padding: 10px 50px 10px 120px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -806,7 +830,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .header-navigation ul.navigation-box > li.current > a,
 .header-navigation ul.navigation-box > li:hover > a {
-  color: #0f6fd5;
+  color: #112B99;
 }
 
 .header-navigation ul.navigation-box > li.current > a:after,
@@ -876,7 +900,8 @@ a[href^="https://maps.google.com/maps"] {
   transition: all .4s ease;
 }
 .header-navigation ul.navigation-box > li > ul.sub-menu > li > a:after {
-  font-family: 'FontAwesome';
+  /* font-family: 'FontAwesome'; */
+  font-family: 'Montserrat', sans-serif;
   content: '\f061';
   font-size: 10px;
   position: absolute;
@@ -960,7 +985,8 @@ a[href^="https://maps.google.com/maps"] {
   transition: all .4s ease;
 }
 .header-navigation ul.navigation-box > li > ul.sub-menu > li > ul.sub-menu > li > a:after {
-  font-family: 'FontAwesome';
+  /* font-family: 'FontAwesome'; */
+  font-family: 'Montserrat', sans-serif;
   content: '\f061';
   font-size: 10px;
   position: absolute;
@@ -1033,6 +1059,7 @@ a[href^="https://maps.google.com/maps"] {
     max-width: 540px;
   }
 }
+
 .site-header.style-two .header-navigation .container {
   padding-right: 130px;
 }
@@ -1319,10 +1346,10 @@ a[href^="https://maps.google.com/maps"] {
 }
 .slider-content-style .content h3 {
   margin: 0;
-  font-size: 120px;
-  line-height: 110px;
+  font-size: 80px;
+  line-height: 100px;
   color: black;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -0.06em;
   -webkit-animation-delay: .5s;
   animation-delay: .5s;
@@ -1332,11 +1359,11 @@ a[href^="https://maps.google.com/maps"] {
 }
 .slider-content-style .content p {
   margin: 0;
-  font-size: 40px;
-  line-height: 1.5em;
+  line-height: 1.6em;
   -webkit-animation-delay: 1.5s;
   animation-delay: 1.5s;
-  font-size:19px;
+  font-size:18px;
+
 }
 .slider-content-style .content a.thm-btn {
   margin-top: 40px;
@@ -1398,7 +1425,8 @@ a[href^="https://maps.google.com/maps"] {
   width: auto;
   height: auto;
   content: '\f107';
-  font-family: 'FontAwesome';
+  /* font-family: 'FontAwesome'; */
+  font-family: 'Montserrat', sans-serif;
   color: #798593;
   font-size: 16px;
   width: 66px;
@@ -1414,7 +1442,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-transform: translateX(-35px);
@@ -1440,7 +1469,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-animation-delay: 2.5s;
@@ -1612,7 +1642,8 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-transform: translateX(-72%);
           transform: translateX(-72%);
   color: #FFFFFF;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 .slider-content-style-four .video-button-box a .btn-tag-line i {
@@ -1747,7 +1778,7 @@ a[href^="https://maps.google.com/maps"] {
   margin: 0;
   color: #001328;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 40px;
 }
 
@@ -1804,15 +1835,16 @@ a[href^="https://maps.google.com/maps"] {
   margin: 0;
   color: #001328;
   font-size: 26px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .service-style-one .single-tab-content .text-box p {
   margin: 0;
-  color: #798593;
-  font-size: 18px;
-  line-height: 34px;
-  font-weight: 600;
+  /* color: #798593; */
+  color: black;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
   margin-top: 20px;
   margin-bottom: 35px;
 }
@@ -1841,10 +1873,10 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-service-two {
   text-align: center;
-  border: 1px solid #CCD7E0;
+  /* border: 1px solid #CCD7E0; */
   border-radius: 6px;
   background: #FFFFFF;
-  padding: 63px 60px;
+  padding: 20px 60px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
@@ -1948,7 +1980,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-right: 130px;
   margin-top: 20px;
@@ -2315,7 +2348,6 @@ a[href^="https://maps.google.com/maps"] {
   left: 0;
   width: 100%;
   height: 120px;
-  background: #fff;
 }
 .service-style-two.solutions-page .container {
   position: relative;
@@ -2326,6 +2358,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .service-style-one.solutions-page .single-tab-content-two .sec-title {
   margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .service-style-one.solutions-page .single-tab-content-two p,
 .service-style-one.solutions-page .single-tab-content-two ul {
@@ -2336,7 +2370,7 @@ a[href^="https://maps.google.com/maps"] {
 .service-style-one.solutions-page .single-tab-content-two p {
   font-size: 18px;
   line-height: 34px;
-  font-weight: 600;
+  font-weight: 400;
   color: #798593;
   margin-bottom: 30px;
 }
@@ -2346,6 +2380,7 @@ a[href^="https://maps.google.com/maps"] {
   line-height: 34px;
   color: #798593;
   padding-left: 25px;
+  font-weight: 400;
 }
 .service-style-one.solutions-page .single-tab-content-two ul.list-items li i {
   font-size: 14px;
@@ -2825,7 +2860,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-right: 100px;
   margin-top: 15px;
@@ -3038,8 +3074,8 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-easy-step-one h3 {
   color: #fff;
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 600;
   margin: 0;
   margin-top: 25px;
 }
@@ -3054,14 +3090,14 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-easy-step-one p {
   color: #E8F3FF;
-  font-size: 18px;
-  line-height: 34px;
-  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
   margin: 0;
   width: 89%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -3094,7 +3130,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-easy-step-one .step-count {
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   font-size: 18px;
 }
@@ -3258,7 +3295,8 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-transform: translateX(-65%);
   transform: translateX(-65%);
   color: #FFFFFF;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
@@ -3355,10 +3393,12 @@ a[href^="https://maps.google.com/maps"] {
 .video-box-style-four .video-box-content p {
   font-size: 18px;
   line-height: 34px;
-  font-weight: 600;
+  font-weight: 400;
   color: #798593;
   margin-top: 35px;
   margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .video-box-style-four .video-box-content ul.list-items li {
   position: relative;
@@ -3366,6 +3406,8 @@ a[href^="https://maps.google.com/maps"] {
   line-height: 34px;
   color: #798593;
   padding-left: 25px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .video-box-style-four .video-box-content ul.list-items li + li {
   margin-top: 10px;
@@ -3441,7 +3483,8 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-transform: translateX(-65%);
   transform: translateX(-60%);
   color: #FFFFFF;
-  font-family: 'Covered By Your Grace';
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Covered By Your Grace'; */
   font-size: 20px;
 }
 .video-box-style-four .video-box .box a .btn-tag-line i {
@@ -3484,14 +3527,15 @@ a[href^="https://maps.google.com/maps"] {
   max-width: 290px;
   background: #FFFFFF;
   height: 60px;
-  border-radius: 30px;
+  border-radius: 30px 0px 0px 30px;
   color: #798593;
   font-size: 16px;
   font-weight: 600;
   padding-left: 40px;
-  margin-right: 10px;
 }
-
+.home-btn{
+  border-radius:  0px 30px 30px 0px!important;
+}
 /************************** 
 * 13. expertize styles 
 ***************************/
@@ -3572,9 +3616,9 @@ a[href^="https://maps.google.com/maps"] {
 
 .get-apps-style-one-content p {
   color: #798593;
-  font-size: 18px;
-  line-height: 34px;
-  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
   margin: 0;
   margin-bottom: 50px;
 }
@@ -3608,7 +3652,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-left: 55px;
   margin-top: 20px;
@@ -4071,7 +4116,8 @@ a[href^="https://maps.google.com/maps"] {
   width: auto;
   height: auto;
   content: '\f107';
-  font-family: 'FontAwesome';
+  /* font-family: 'FontAwesome'; */
+  font-family: 'Montserrat', sans-serif;
   color: #798593;
   font-size: 16px;
   width: 66px;
@@ -4088,7 +4134,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-left: 90px;
   margin-top: 20px;
@@ -4147,7 +4194,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #FFFFFF;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-right: 100px;
   margin-top: 15px;
@@ -4287,7 +4335,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-transform: translateX(-35px);
@@ -4325,7 +4374,7 @@ a[href^="https://maps.google.com/maps"] {
 .cta-four .btn-box .btn-tag-line {
   color: #DBEAFB;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
 }
 .cta-four .btn-box .btn-tag-line i {
@@ -4401,7 +4450,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-right: 100px;
   margin-top: 15px;
@@ -4503,31 +4553,14 @@ a[href^="https://maps.google.com/maps"] {
 .footer-widget ul.link-lists li a {
   color: #DBE9FA;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   display: block;
   position: relative;
   padding-right: 20px;
 }
 
-.footer-widget ul.link-lists li a:after {
-  content: '\f061';
-  font-family: 'FontAwesome';
-  font-size: 10px;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  -webkit-transform: translateY(-50%) translateX(10px);
-  transform: translateY(-50%) translateX(10px);
-  opacity: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-}
 
-.footer-widget ul.link-lists li:hover a:after {
-  -webkit-transform: translateY(-50%) translateX(0);
-  transform: translateY(-50%) translateX(0);
-  opacity: 1;
-}
+
 
 .footer-widget .btn-box .thm-btn {
   padding: 18px 62.5px;
@@ -4537,7 +4570,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #DBEAFB;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-top: 20px;
 }
@@ -4835,7 +4869,8 @@ a[href^="https://maps.google.com/maps"] {
           transform: translateX(-10%);
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
 .top-location-block .text-block .btn-box .btn-tag-line i {
@@ -5121,9 +5156,9 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-testimonial-one .text-box p {
   color: #DBE9FA;
-  font-size: 22px;
-  line-height: 40px;
-  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
 .single-testimonial-one .text-box h3 {
@@ -5274,7 +5309,8 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-transform: translateX(-70%);
   transform: translateX(-70%);
   color: #FFFFFF;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
@@ -5481,14 +5517,40 @@ a[href^="https://maps.google.com/maps"] {
 
 .about-style-one .about-content p {
   color: #798593;
-  font-size: 18px;
-  line-height: 34px;
-  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
   margin-bottom: 0;
   margin-top: 10px;
   margin-bottom: 52px;
 }
+.payrollsystemsec{
+padding-top: 30px;
+}
+.payrollsystem{
+  text-align: left;
+}
+.payrolltraining{
+  padding: 20px 130px;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #798593;
+}
+.payrollsystem li{
+  font-size: 15px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #798593;
 
+}
+.training{
+  padding: 15px 30px ;
+  margin-bottom: 30px;
+}
+.backup{
+  font-size: 10px;
+}
 .about-style-one .featured-image-box .img-box {
   overflow: hidden;
   border-radius: 8px;
@@ -5509,15 +5571,15 @@ a[href^="https://maps.google.com/maps"] {
 .about-style-one .featured-image-box .text-box h3 {
   font-size: 22px;
   color: #001328;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 
 .about-style-one .featured-image-box .text-box p {
   color: #798593;
-  font-size: 18px;
-  line-height: 34px;
-  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
 .about-style-two .sec-title {
@@ -5525,10 +5587,10 @@ a[href^="https://maps.google.com/maps"] {
 }
 .about-style-two p {
   color: #798593;
-  font-size: 18px;
-  line-height: 34px;
+  font-size: 17px;
+  line-height: 30px;
   margin: 0;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -5786,7 +5848,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .faq-style-one .accrodion-grp .accrodion .accrodion-title h4:after {
   content: "\f067";
-  font-family: 'FontAwesome';
+  font-family: 'Montserrat', sans-serif;
   color: #001328;
   font-size: 14px;
   position: absolute;
@@ -5940,6 +6002,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .meeting-form-wrapper .sec-title {
   margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .meeting-form-wrapper:before {
@@ -6074,7 +6138,7 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-transform: translateX(-100px);
@@ -6198,7 +6262,8 @@ a[href^="https://maps.google.com/maps"] {
   width: auto;
   height: auto;
   content: '\f107';
-  font-family: 'FontAwesome';
+  /* font-family: 'FontAwesome'; */
+  font-family: 'Montserrat', sans-serif;
   color: #798593;
   font-size: 16px;
   position: absolute;
@@ -6523,7 +6588,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-transform: translateX(-75px);
@@ -6756,7 +6822,8 @@ a[href^="https://maps.google.com/maps"] {
   transform: translateX(-10%);
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
 .white-paper-wrapper .btn-box .btn-tag-line i {
@@ -6907,7 +6974,8 @@ a[href^="https://maps.google.com/maps"] {
   transition: all .4s ease;
 }
 .sidebar .single-sidebar ul.links-list li a:after {
-  font-family: 'FontAwesome';
+  /* font-family: 'FontAwesome'; */
+  font-family: 'Montserrat', sans-serif;
   content: '\f061';
   font-size: 10px;
   position: absolute;
@@ -7016,7 +7084,8 @@ a[href^="https://maps.google.com/maps"] {
   transition: all .4s ease;
 }
 .sidebar-about .single-sidebar-about ul.page-lists li a:after {
-  font-family: 'FontAwesome';
+  /* font-family: 'FontAwesome'; */
+  font-family: 'Montserrat', sans-serif;
   content: '\f061';
   font-size: 10px;
   position: absolute;
@@ -7940,7 +8009,8 @@ a[href^="https://maps.google.com/maps"] {
   display: block;
   color: #798593;
   font-size: 20px;
-  font-family: 'Covered By Your Grace';
+  /* font-family: 'Covered By Your Grace'; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-transform: translateX(-35px);

@@ -981,10 +981,27 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 650px) { 
+    .navbar-brand img{
+        width: 70%;
+    }
+    .top-bar .left-content p{
+        font-size: 11px;
+    }
+    .top-bar .right-content ul li {
+        font-size: 11px;
+    }
     .top-bar [class*=float-] {
         width: 100%;
         text-align: center;
+    }
+    .header-navigation {
+        padding: 10px 15px;
+    }
+    .thm-btn{
+        font-size: 10px;
+        padding: 10px;
+        
     }
 
     .slider-content-style .content h3 {
@@ -1000,8 +1017,14 @@
         width: 25%;
         float: left;
     }
+    .service-style-one .single-tab-content .text-box p {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 25px;
+    }
 }
-
 @media (max-width: 575px) {
     .single-service-six {
         width: 100%;
@@ -1236,11 +1259,11 @@
     }
 
     .slider-content-style .content h3 {
-        font-size: 67px;
+        font-size: 33px;
     }
 
     .slider-content-style .content p {
-        font-size: 29px;
+        font-size: 11px;
     }
 
     .service-style-one .tab-title li {
@@ -1252,7 +1275,7 @@
     }
 
     .slider-content-style .content {
-        padding-top: 204px;
+        padding-top: 40px;
     }
 
     .get-apps-style-one-content .thm-btn.style-two {
