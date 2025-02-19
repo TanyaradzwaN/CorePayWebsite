@@ -335,7 +335,7 @@ a[href^="https://maps.google.com/maps"] {
 ***************************/
 .top-bar {
   background: #112B99;
-  padding: 14.75px 70px 14.75px 140px;
+  padding: 14.75px 70px 14.75px 120px;
 }
 
 .top-bar .left-content p {
@@ -721,7 +721,7 @@ a[href^="https://maps.google.com/maps"] {
   padding: 0;
   position: relative;
   background-color: transparent;
-  padding: 10px 50px 10px 120px;
+  padding: 10px 50px 10px 105px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -747,9 +747,9 @@ a[href^="https://maps.google.com/maps"] {
   height: auto;
   margin: 0;
 }
-/* .navbar-brand img{
-  width: 50%;
-} */
+.navbar-brand img{
+  width: 85%;
+} 
 .header-navigation .container .menu-toggler {
   display: none;
 }
@@ -1718,8 +1718,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .service-style-one .tab-title .icon-box {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
           box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
@@ -1749,8 +1749,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .service-style-one .tab-title .icon-box i {
-  font-size: 72px;
-  line-height: 150px;
+  font-size: 60px;
+  line-height: 100px;
   position: relative;
   z-index: 10;
   color: #0f6fd5;
@@ -2518,6 +2518,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-solution-style-one .img-box img {
   border-radius: 50%;
+  border:.1px solid #d4d8de;
 }
 
 .single-solution-style-one .text-box {
@@ -3455,6 +3456,9 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   width: 100%;
   text-align: center;
+}
+.video-box-style-four .video-box .box span{
+display: none;
 }
 .video-box-style-four .video-box .box a i.fa-play {
   display: inline-block;
@@ -4605,8 +4609,12 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .footer-widget a img{
-  width:100%;
+  width:70%;
   object-fit: contain;
+}
+
+.global{
+  margin: 30px 0;
 }
 
 
@@ -4712,49 +4720,64 @@ a[href^="https://maps.google.com/maps"] {
   height: 272px;
   padding:30px;
   text-align: center;
+  z-index: 10;
+  opacity: 1;
 }
 .google-map img{
   width: 20%;
 }
 .revenue{
-  margin: 30px 15px;
+line-height: 60px;
 }
+
 .google-map a{
   background-color:#0f6fd5 ;
-  padding: 15px;
+  /* padding: 10px; */
   color: white;
   border-radius:3px;
   cursor: pointer;
   z-index: 99999;
+  opacity: 1;
+  display:block;
+  margin: 10px 0;
 }
 .single-sales-point .text-box {
   position: absolute;
   background: #fff;
-  top: 0;
+  /* top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
   z-index: 10;
   padding-left: 40px;
   padding-top: 40px;
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  /* -webkit-transform: translateY(0);
+  transform: translateY(0); */
   opacity: 1;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+  width: 100%;
+  height: 100%;
 }
 
 .single-sales-point:hover {
   -webkit-box-shadow: 0px 10px 30px 0px #112a99b1;
           box-shadow: 0px 10px 30px 0px #112a99b1;
+          z-index: 0;
 }
 
 .single-sales-point:hover .text-box {
   -webkit-transform: translateY(30px);
   transform: translateY(30px);
   opacity: 0;
+  z-index: 0;
 }
+.single-sales-point:hover .map-box{
+  opacity: 1;
+  z-index: 9999999;
+  position: relative;
 
+}
 .single-sales-point .text-box h3,
 .single-sales-point .text-box ul {
   margin: 0;
@@ -4902,7 +4925,7 @@ a[href^="https://maps.google.com/maps"] {
 .top-location-block .contact-info ul li {
   position: relative;
   padding-left: 35px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   color: #798593;
 }
@@ -4937,7 +4960,9 @@ a[href^="https://maps.google.com/maps"] {
 .top-location-block .contact-info .social a:hover {
   color: #0f6fd5;
 }
-
+.top-location-block .contact-info .social span{
+  display: none;
+}
 /************************** 
 * 19. team styles 
 ***************************/
@@ -5509,7 +5534,7 @@ a[href^="https://maps.google.com/maps"] {
 * 21. about styles 
 ***************************/
 .about-style-one .about-content {
-  text-align: center;
+  /* text-align: center; */
   padding: 0 33px;
 }
 
