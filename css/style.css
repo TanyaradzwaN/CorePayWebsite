@@ -788,6 +788,22 @@ a[href^="https://maps.google.com/maps"] {
   text-align: right;
 }
 
+/* Default color for 'nav-items' links */
+.nav-items {
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect to change the color to red */
+.nav-items:hover {
+  color: #0f6fd5 !important;
+}
+
+/* Active link color (for the current page) */
+.nav-items.active {
+  color: #0f6fd5 !important; /* Change to your desired active link color */
+}
+
+
 @media (min-width: 1200px) {
   .header-navigation .main-navigation {
     display: block !important;

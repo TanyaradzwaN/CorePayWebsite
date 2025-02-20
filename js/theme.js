@@ -636,3 +636,35 @@
 function mobileMenuOpen() {
     document.getElementById("gmDropdown").classList.toggle("show");
 }
+
+window.onload = function() {
+    // Select all links with the class 'nav-items'
+    let navLinks = document.querySelectorAll('.nav-items');
+
+    // Get the current page's pathname
+    let currentPage = window.location.pathname;
+
+    // Loop through all the nav links
+    navLinks.forEach(function(link) {
+        // Check if the link's href matches the current page
+        if (link.getAttribute('href') === currentPage || (currentPage === '/' && link.getAttribute('href') === '/index.html')) {
+            // If the link is the current page, add the 'active' class
+            link.classList.add('active');
+        } else {
+            // Otherwise, remove the 'active' class if it's already added
+            link.classList.remove('active');
+        }
+    });
+
+    // Set the color of the links based on the page
+    if (currentPage === '/index.html' || currentPage === '/') {
+        navLinks.forEach(function(link) {
+            link.style.color = 'black';
+        });
+    } else {
+        navLinks.forEach(function(link) {
+            link.style.color = 'white';
+        });
+    }
+};
+
