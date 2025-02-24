@@ -129,7 +129,8 @@ a:visited {
   width:100%
 }
 .footerimage{
-  width: 10%;
+  width: 10%!important;
+  margin:0!important
 }
 .sec-title h2 {
   margin: 0;
