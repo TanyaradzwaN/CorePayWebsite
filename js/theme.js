@@ -668,3 +668,47 @@ window.onload = function() {
     }
 };
 
+
+function openModal(modalId) {
+    document.getElementById(modalId).style.display = "block";
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+        closeModal(event.target.id);
+    }
+}
+
+
+
+
+var within_first_modal = false;
+$('.btn-second-modal').on('click', function() {
+  if ($(this).hasClass('within-first-modal')) {
+    within_first_modal = true;
+    $('#first-modal').modal('hide');
+  }
+  $('#second-modal').modal('show');
+});
+
+$('.btn-second-modal-close').on('click', function() {
+  $('#second-modal').modal('hide');
+  if (within_first_modal) {
+    $('#first-modal').modal('show');
+    within_first_modal = false;
+  }
+});
+
+$('.btn-toggle-fade').on('click', function() {
+  if ($('.modal').hasClass('fade')) {
+    $('.modal').removeClass('fade');
+    $(this).removeClass('btn-success');
+  } else {
+    $('.modal').addClass('fade');
+    $(this).addClass('btn-success');
+  }
+});
