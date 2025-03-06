@@ -94,6 +94,9 @@ a:visited {
 .sec-title {
   margin-bottom: 60px;
 }
+.modalsec{
+  padding: 1px 0!important;
+}
 
 .sec-title span {
   display: block;
@@ -2787,7 +2790,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .featured-image-box{
   font-size: 25px;
-  padding: 15px 140px;
+  padding: 15px 1px;
 }
 .single-solution-style-three .image-box {
   position: relative;

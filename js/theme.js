@@ -663,7 +663,7 @@ window.onload = function() {
         });
     } else {
         navLinks.forEach(function(link) {
-            link.style.color = 'white';
+            link.style.color = '#b5b9bd';
         });
     }
 };
@@ -684,31 +684,14 @@ window.onclick = function(event) {
 }
 
 
-
-
-var within_first_modal = false;
-$('.btn-second-modal').on('click', function() {
-  if ($(this).hasClass('within-first-modal')) {
-    within_first_modal = true;
-    $('#first-modal').modal('hide');
-  }
-  $('#second-modal').modal('show');
-});
-
-$('.btn-second-modal-close').on('click', function() {
-  $('#second-modal').modal('hide');
-  if (within_first_modal) {
-    $('#first-modal').modal('show');
-    within_first_modal = false;
-  }
-});
-
-$('.btn-toggle-fade').on('click', function() {
-  if ($('.modal').hasClass('fade')) {
-    $('.modal').removeClass('fade');
-    $(this).removeClass('btn-success');
-  } else {
-    $('.modal').addClass('fade');
-    $(this).addClass('btn-success');
-  }
-});
+// Open modal when any button with class "btn-open-modal" is clicked
+$('.btn-open-modal').on('click', function() {
+    var targetModal = $(this).data('target'); // Get the target modal ID
+    $(targetModal).modal('show'); // Show the modal
+  });
+  
+  // Close modal when any button with class "btn-close-modal" is clicked
+  $('.btn-close-modal').on('click', function() {
+    $(this).closest('.modal').modal('hide'); // Hide the closest modal
+  });
+  
