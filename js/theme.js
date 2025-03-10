@@ -712,3 +712,30 @@ $('.btn-open-modal').on('click', function() {
                 this.reset();
             }, 3000);
         });
+
+
+        window.onload = function() {
+            // Select all links with the class 'nav-items'
+            let navLinks = document.querySelectorAll('.nav-items');
+            
+            // Get the current page's pathname and remove trailing slash if present
+            let currentPage = window.location.pathname.replace(/\/$/, "");
+            
+            // Loop through all the nav links
+            navLinks.forEach(function(link) {
+                // Get the link's href and remove trailing slash if present
+                let linkPath = new URL(link.href).pathname.replace(/\/$/, "");
+        
+                // Check if the link's href matches the current page
+                if (linkPath === currentPage || (currentPage === '' && linkPath === '/index.html')) {
+                    // If the link is the current page, add the 'active' class and set color to black
+                    link.classList.add('active');
+                    link.style.color = 'black';
+                } else {
+                    // Otherwise, remove the 'active' class and set color to #b5b9bd
+                    link.classList.remove('active');
+                    link.style.color = '#b5b9bd';
+                }
+            });
+        };
+        

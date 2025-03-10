@@ -959,7 +959,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .header-navigation ul.navigation-box > li.current > a,
 .header-navigation ul.navigation-box > li:hover > a {
-  color: #112B99;
+  color: #112B99!important;
 }
 
 .header-navigation ul.navigation-box > li.current > a:after,
