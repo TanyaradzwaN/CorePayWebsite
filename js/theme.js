@@ -695,3 +695,20 @@ $('.btn-open-modal').on('click', function() {
     $(this).closest('.modal').modal('hide'); // Hide the closest modal
   });
   
+        // Show a success message when the form is submitted
+        document.getElementById('subscribe-form').addEventListener('submit', function() {
+            // Create and show a success message
+            const successMessage = document.createElement('div');
+            successMessage.textContent = "Thank you for subscribing!";
+            successMessage.style.color = "green";
+            successMessage.style.marginTop = "10px";
+            
+            this.appendChild(successMessage);
+            
+            // Hide the message after 3 seconds
+            setTimeout(() => {
+                successMessage.remove();
+                // Reset the form (optional)
+                this.reset();
+            }, 3000);
+        });

@@ -469,7 +469,7 @@
         width: 100%;
         display: none;
         text-align: left;
-        background: #000;
+        background: #112B99;
         max-height: 70vh;
         overflow-y: scroll;
     }
@@ -1133,7 +1133,7 @@
 
     .subscribe-form input{
         border-radius: 5px!important;
-        padding-left: 70px!important;
+        text-align: center;        
         font-size: 14px;
 
     }
@@ -1364,6 +1364,17 @@
 }
 
 @media (max-width: 441px) {
+    .about-style-one .featured-image-box .text-box {
+        padding: 25px 15px!important;
+    }
+
+    .modal-content {
+        width: 95%!important;
+        padding: 10px 0!important;
+    }
+    .about-style-one .about-content{
+        padding: 0 15px!important;
+    }
     .time-tab-style-one .single-tab-content p {
         margin: 30px 0;
     }
@@ -1405,6 +1416,7 @@
     }
     .single-testimonial-two .text-box p {
         font-size: 20px;
+        line-height: 30px;
     }
     .header-navigation .container{
         padding-left: 20px;
@@ -1574,8 +1586,9 @@
 
     .subscribe-form input{
         border-radius: 5px!important;
-        padding-left: 70px!important;
+        text-align: center;
         font-size: 14px;
+        padding: 0!important;
 
     }
     .footer-widget a img {
