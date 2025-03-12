@@ -1451,7 +1451,6 @@ a[href^="https://maps.google.com/maps"] {
   color: #fff;
 }
 .carousel-inner {
-  height: 100vh;
 }
 /* fixing slider height */
 #minimal-bootstrap-carousel.slider-home-one .carousel-inner .carousel-item {
@@ -3679,7 +3678,9 @@ display: none;
   border-radius:  0px 30px 30px 0px!important;
   margin-bottom: 3.5px;
   outline: none;
+  outline: 0;
 }
+
 /************************** 
 * 13. expertize styles 
 ***************************/
@@ -4679,6 +4680,9 @@ display: none;
   transition: all .4s ease;
 }
 .footer-widget .social a span{
+  display: none!important;
+}
+.footer-widget .social a span a{
   display: none!important;
 }
 
